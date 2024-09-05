@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftShop</title>
+    <link rel="stylesheet" href="./css/baskett.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="./img/header/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__menu">
+
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="./about.html" class="menu__link">О нас</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link menu__link-drop">Каталог</a>
+                                        <ul class= "menu__list menu__list--dropdown">
+                                            <li class="dropdown__list "><a class="menu__link" href="./cart.html">Цветы</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Сладости</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Игрушки</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Подарочные сертификаты</a>
+                                            </li>
+                                        </ul>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Контакты</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./action.html" class="menu__link">Акции</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="menu__icon">
+                        <a href="">
+                            <img src="./img/header/Group 1.svg" alt="">
+                        </a>
+                    </div>
+            </div>
+
+
+        </div>
+</header>
+
+    <section class="section-cart">
+        <header class="section-cart__header">
+            <div class="container">
+                <h1 class="title-1">Корзина товаров</h1>
+            </div>
+        </header>
+        <div class="section-cart__body">
+            <div class="container">
+
+                <section class="cart">
+                    <header class="cart-header">
+                        <div class="cart-header__title">наименование</div>
+                        <div class="cart-header__count">количество</div>
+                        <div class="cart-header__cost">стоимость</div>
+                    </header>
+
+                    <section class="product">
+                        <div class="product__img"><img src="./img/products/изображение 6.png" alt=""></div>
+                        <div class="product__title">Букет из конфет</div>
+                        <div class="product__count">
+                            <div class="count">
+                                <div class="count__box">
+                                    <input type="number" class="count__input" min="1" max="100" value="1">
+                                </div>
+                                <div class="count__controls">
+                                    <button type="button" class="count__up">
+                                        <img src="./img/icons/icon-up.svg" alt="Increase">
+                                    </button>
+                                    <button type="button" class="count__down">
+                                        <img src="./img/icons/icon-down.svg" alt="Decrease">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__price">400 руб.</div>
+                        <div class="product__controls">
+                            <button type="button">
+                                <img src="./img/icons/cross.svg" alt="Delete">
+                            </button>
+                        </div>
+                    </section>
+
+                    <section class="product">
+                        <div class="product__img"><img src="./img/products/изображение 6(1).png" alt=""></div>
+                        <div class="product__title">Миньоны</div>
+                        <div class="product__count">
+                            <div class="count">
+                                <div class="count__box">
+                                    <input type="number" class="count__input" min="1" max="100" value="1">
+                                </div>
+                                <div class="count__controls">
+                                    <button type="button" class="count__up">
+                                        <img src="./img/icons/icon-up.svg" alt="Increase">
+                                    </button>
+                                    <button type="button" class="count__down">
+                                        <img src="./img/icons/icon-down.svg" alt="Decrease">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__price">400 руб.</div>
+                        <div class="product__controls">
+                            <button type="button">
+                                <img src="./img/icons/cross.svg" alt="Delete">
+                            </button>
+                        </div>
+                    </section>
+
+                    <section class="product">
+                        <div class="product__img"><img src="./img/products/best-3.png" alt=""></div>
+                        <div class="product__title">Коробка конфет</div>
+                        <div class="product__count">
+                            <div class="count">
+                                <div class="count__box">
+                                    <input type="number" class="count__input" min="1" max="100" value="1">
+                                </div>
+                                <div class="count__controls">
+                                    <button type="button" class="count__up">
+                                        <img src="./img/icons/icon-up.svg" alt="Increase">
+                                    </button>
+                                    <button type="button" class="count__down">
+                                        <img src="./img/icons/icon-down.svg" alt="Decrease">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__price">400 руб.</div>
+                        <div class="product__controls">
+                            <button type="button">
+                                <img src="./img/icons/cross.svg" alt="Delete">
+                            </button>
+                        </div>
+                    </section>
+
+
+                    <footer class="cart-footer">
+                        <div class="cart-footer__count">3 единицы</div>
+                        <div class="cart-footer__price">329 000 руб.</div>
+                    </footer>
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__wrapper">
+
+                <div class="footer__content">
+
+                    <div class="footer__logo">
+                        <a href="#"><img src="./img/footer/Ресурс 12-8 1.png" alt=""></a>
+                    </div>
+
+                        <nav class="footer__menu">
+
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <p class="footer__title">Каталог</p>
+                                </li>
+
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Цветы</a>
+                                </li>
+
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Сладости</a>
+                                </li>
+
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Игрушки</a>
+                                </li>
+
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Подарочные <br> сертификаты</a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="./about.html" class="footer__title">О нас</a>
+                                </li>
+                            </ul>
+
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <p class="footer__title">Контакты</p>
+
+                                    <a href="" class="footer__img">
+                                        <img src="./img/footer/tg.svg" alt="">
+                                    </a>
+                                    <a href="" class="footer__img">
+                                        <img src="./img/footer/what.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <p class="footer__title">Акции</p>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+                </div>
+
+                    <nav class="copy__nav">
+                        <ul class="copy__list">
+                            <li class="copy__item"><a href="" class="copy__link">Конфиденциальность и файлы cookie</a></li>
+                            <li class="copy__item"><a href="" class="copy__link">Юридическая информация</a></li>
+
+                    </nav>
+                    <div class="copy__item"><a href="" class="copy__link">© GiftShop, Inc., 2023. Все права защищены.</a></div>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

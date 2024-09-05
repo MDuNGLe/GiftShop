@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftShop</title>
+    <link rel="stylesheet" href="./css/carts.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="./img/header/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__menu">
+
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="./about.html" class="menu__link">О нас</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link menu__link-drop">Каталог</a>
+                                        <ul class= "menu__list menu__list--dropdown">
+                                            <li class="dropdown__list "><a class="menu__link" href="./cart.html">Цветы</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Сладости</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Игрушки</a>
+                                            </li>
+                                            <li class="dropdown__list"><a class="menu__link" href="#">Подарочные сертификаты</a>
+                                            </li>
+                                        </ul>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Контакты</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./action.html" class="menu__link">Акции</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="menu__icon">
+                        <a href="">
+                            <img src="./img/header/Group 1.svg" alt="">
+                        </a>
+                    </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="container">
+                <div class="product">
+
+                    <!-- Секция для фильра -->
+                    <div class="sidebar">
+                        <div class="filter">
+                            <p class="sidebar__titke">Фильтр</p>
+                            <div class="filter-checkbox">
+                                <label class="text__checkbox" for="human">Цветы</label>
+                                <input class="checkbox" type="checkbox" name="" id="human" >
+                            </div>
+
+                            <div class="filter-checkbox">
+                                <label class="text__checkbox" for="human">Игрушки</label>
+                                <input class="checkbox" type="checkbox" name="" id="human" >
+                            </div>
+
+                            <div class="filter-checkbox">
+                            <label class="text__checkbox" for="human">Подарочные <label>
+                            <input class="checkbox" type="checkbox" name="" id="human" >
+                            </div>
+
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+
+                            <div class="product-category">
+
+                                <div class="filter-checkbox">
+                                    <label class="text__checkbox" for="human">Для детей</label>
+                                    <input class="checkbox" type="checkbox" name="" id="human" >
+                                </div>
+
+                                <div class="filter-checkbox">
+                                    <label class="text__checkbox" for="human">Второй половинке</label>
+                                    <input class="checkbox" type="checkbox" name="" id="human" >
+                                </div>
+
+                                <div class="filter-checkbox">
+                                    <label class="text__checkbox" for="human">Родственникам</label>
+                                    <input class="checkbox" type="checkbox" name="" id="human" >
+                                </div>
+                            </div>
+
+                            <div class="reset_btn">
+                                <a href="#" class="reset_btn_link">Сбросить</a>
+                            </div>
+
+                            <div class="search-box">
+
+
+                                    <input type="text" class="search-text" name="" placeholder="Поиск">
+
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+                        <div class="product__row">
+                            <div class="product__content">
+                                <!-- Первая карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/изображение 6.png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Миньоны</div>
+
+                                        <p class="text">Игрушечные миньоны для тебя
+                                            и для твоей второй половинки</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a href="./tovar.html" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+                                <!-- Вторая карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/изображение 6(1).png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Букет из конфет</div>
+
+                                        <p class="text">Конфетный бум для любимых</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a href="#" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+                                <!-- Третия карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/best-3.png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Коробка конфет</div>
+
+                                        <p class="text">Порадуйте близких <br>
+                                            вкусными сладостями</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a t href="#" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="product__content">
+                                <!-- Первая карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/изображение 6.png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Миньоны</div>
+
+                                        <p class="text">Игрушечные миньоны для тебя
+                                            и для твоей второй половинки</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a href="#" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+                                <!-- Вторая карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/изображение 6(1).png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Букет из конфет</div>
+
+                                        <p class="text">Конфетный бум для любимых</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a href="#" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+                                <!-- Третия карточка -->
+                                <div class="product__cart">
+                                    <div class="cart__img">
+                                        <img src="./img/section/best-3.png" alt="">
+                                    </div>
+
+                                    <div class="product__wrapper">
+                                        <div class="subtitle">Коробка конфет</div>
+
+                                        <p class="text">Порадуйте близких <br>
+                                            вкусными сладостями</p>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <span class="price">400₽</span>
+
+                                        <a t href="#" class="product__btn">Купить</a>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="product__content">
+                            <!-- Первая карточка -->
+                            <div class="product__cart">
+                                <div class="cart__img">
+                                    <img src="./img/section/изображение 6.png" alt="">
+                                </div>
+
+                                <div class="product__wrapper">
+                                    <div class="subtitle">Миньоны</div>
+
+                                    <p class="text">Игрушечные миньоны для тебя
+                                        и для твоей второй половинки</p>
+                                </div>
+
+                                <div class="product__price">
+                                    <span class="price">400₽</span>
+
+                                    <a href="#" class="product__btn">Купить</a>
+                                </div>
+                            </div>
+                            <!-- Вторая карточка -->
+                            <div class="product__cart">
+                                <div class="cart__img">
+                                    <img src="./img/section/изображение 6(1).png" alt="">
+                                </div>
+
+                                <div class="product__wrapper">
+                                    <div class="subtitle">Букет из конфет</div>
+
+                                    <p class="text">Конфетный бум для любимых</p>
+                                </div>
+
+                                <div class="product__price">
+                                    <span class="price">400₽</span>
+
+                                    <a href="#" class="product__btn">Купить</a>
+                                </div>
+                            </div>
+                            <!-- Третия карточка -->
+                            <div class="product__cart">
+                                <div class="cart__img">
+                                    <img src="./img/section/best-3.png" alt="">
+                                </div>
+
+                                <div class="product__wrapper">
+                                    <div class="subtitle">Коробка конфет</div>
+
+                                    <p class="text">Порадуйте близких <br>
+                                        вкусными сладостями</p>
+                                </div>
+
+                                <div class="product__price">
+                                    <span class="price">400₽</span>
+
+                                    <a t href="#" class="product__btn">Купить</a>
+                                </div>
+                            </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__wrapper">
+
+                    <div class="footer__content">
+
+                        <div class="footer__logo">
+                            <a href="#"><img src="./img/footer/Ресурс 12-8 1.png" alt=""></a>
+                        </div>
+
+                            <nav class="footer__menu">
+
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <p class="footer__title">Каталог</p>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#" class="footer__link">Цветы</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#" class="footer__link">Сладости</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#" class="footer__link">Игрушки</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#" class="footer__link">Подарочные <br> сертификаты</a>
+                                    </li>
+
+                                </ul>
+
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="./about.html" class="footer__title">О нас</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <p class="footer__title">Контакты</p>
+
+                                        <a href="" class="footer__img">
+                                            <img src="./img/footer/tg.svg" alt="">
+                                        </a>
+                                        <a href="" class="footer__img">
+                                            <img src="./img/footer/what.svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <p class="footer__title">Акции</p>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+                    </div>
+
+                        <nav class="copy__nav">
+                            <ul class="copy__list">
+                                <li class="copy__item"><a href="" class="copy__link">Конфиденциальность и файлы cookie</a></li>
+                                <li class="copy__item"><a href="" class="copy__link">Юридическая информация</a></li>
+
+                        </nav>
+                        <div class="copy__item"><a href="" class="copy__link">© GiftShop, Inc., 2023. Все права защищены.</a></div>
+
+                </div>
+
+            </div>
+        </footer>
+
+</body>
+</html>
